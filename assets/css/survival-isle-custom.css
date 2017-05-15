@@ -10,16 +10,16 @@ width: 56.6666%;
 margin-left: 21.6666%;
 }
 
-.download-btn
+.download-btn, .download-btn:visited
 {
-background: #ff8a38;
-background: -moz-linear-gradient(top, #275c6d 0%, #224c4d 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#275c6d), color-stop(100%,#224c4d));
-background: -webkit-linear-gradient(top, #275c6d 0%,#224c4d 100%);
-background: -o-linear-gradient(top, #275c6d 0%,#224c4d 100%);
-background: -ms-linear-gradient(top, #275c6d 0%,#224c4d 100%);
-background: linear-gradient(to bottom, #275c6d 0%,#224c4d 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#275c6d', endColorstr='#224c4d',GradientType=0 );
+background: #ef7a28;
+background: -moz-linear-gradient(top, #174c5d 0%, #123c3d 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#174c5d), color-stop(100%,#123c3d));
+background: -webkit-linear-gradient(top, #174c5d 0%,#123c3d 100%);
+background: -o-linear-gradient(top, #174c5d 0%,#123c3d 100%);
+background: -ms-linear-gradient(top, #174c5d 0%,#123c3d 100%);
+background: linear-gradient(to bottom, #174c5d 0%,#123c3d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#174c5d', endColorstr='#123c3d',GradientType=0 );
 margin-left: 20px;
 margin-right: 20px;
 margin-bottom: 10px;   
@@ -33,4 +33,30 @@ width: 900px;
 .about-text
 {
 width: 100%;
+}
+
+.download-btn:hover, .download-btn:focus, .download-btn:active:focus
+{
+background: -moz-linear-gradient(top, #275c6d 0%, #224c4d 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#275c6d), color-stop(100%,#224c4d));
+background: -webkit-linear-gradient(top, #275c6d 0%,#224c4d 100%);
+background: -o-linear-gradient(top, #275c6d 0%,#224c4d 100%);
+background: -ms-linear-gradient(top, #275c6d 0%,#224c4d 100%);
+background: linear-gradient(to bottom, #275c6d 0%,#224c4d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#275c6d', endColorstr='#224c4d',GradientType=0 );
+filter: none;
+opacity: 1;
+
+}.download-btn:active
+{
+background: #ef7a28;
+background: -moz-linear-gradient(top, #124859 0%, #0C2828 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#124859), color-stop(100%,#0C2828));
+background: -webkit-linear-gradient(top, #124859 0%,#0C2828 100%);
+background: -o-linear-gradient(top, #124859 0%,#0C2828 100%);
+background: -ms-linear-gradient(top, #124859 0%,#0C2828 100%);
+background: linear-gradient(to bottom, #124859 0%,#0C2828 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#124859', endColorstr='#0C2828',GradientType=0 );
+filter: none;
+opacity: 1;
 }
