@@ -1,0 +1,23 @@
+.download-window 
+{
+background:rgb(0,0,0);
+background: transparent\9;
+background:rgba(0,0,0,0.3);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+padding-bottom: 40px;
+padding-up: 100px;
+width: 56.6666%;
+margin-left: 21.6666%;
+}
+
+.download-btn
+{
+background: #ff8a38;
+    background: -moz-linear-gradient(top, #275c6d 0%, #224c4d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#275c6d), color-stop(100%,#224c4d));
+    background: -webkit-linear-gradient(top, #275c6d 0%,#224c4d 100%);
+    background: -o-linear-gradient(top, #275c6d 0%,#224c4d 100%);
+    background: -ms-linear-gradient(top, #275c6d 0%,#224c4d 100%);
+    background: linear-gradient(to bottom, #275c6d 0%,#224c4d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#275c6d', endColorstr='#224c4d',GradientType=0 );
+}
