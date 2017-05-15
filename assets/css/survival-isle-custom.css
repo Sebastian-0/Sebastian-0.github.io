@@ -10,7 +10,7 @@ width: 56.6666%;
 margin-left: 21.6666%;
 }
 
-.download-btn, .download-btn:visited
+.download-btn, .download-btn:visited, .download-btn:focus
 {
 background: #ef7a28;
 background: -moz-linear-gradient(top, #174c5d 0%, #123c3d 100%);
@@ -23,6 +23,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#174c5d', end
 margin-left: 20px;
 margin-right: 20px;
 margin-bottom: 10px;   
+opacity: 1;
 }
 
 .about-box
@@ -35,7 +36,7 @@ width: 900px;
 width: 100%;
 }
 
-.download-btn:hover, .download-btn:focus, .download-btn:active:focus
+.download-btn:hover
 {
 background: -moz-linear-gradient(top, #275c6d 0%, #224c4d 100%);
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#275c6d), color-stop(100%,#224c4d));
@@ -47,7 +48,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#275c6d', end
 filter: none;
 opacity: 1;
 
-}.download-btn:active
+}.download-btn:active, .download-btn:active:focus
 {
 background: #ef7a28;
 background: -moz-linear-gradient(top, #124859 0%, #0C2828 100%);
