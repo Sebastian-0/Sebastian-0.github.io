@@ -5,7 +5,7 @@ background: transparent\9;
 background:rgba(0,0,0,0.3);
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
 padding-bottom: 30px;
-padding-up: 100px;
+padding-top: 10px;
 width: 56.6666%;
 margin-left: 21.6666%;
 }
@@ -23,4 +23,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#275c6d', end
 margin-left: 20px;
 margin-right: 20px;
 margin-bottom: 10px;   
+}
+
+.about-box
+{
+width: 900px;
+}
+
+.about-text
+{
+width: 100%;
 }
